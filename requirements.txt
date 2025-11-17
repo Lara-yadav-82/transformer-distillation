@@ -1,0 +1,30 @@
+# Required packages for training the summarization transformer
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Transformers and NLP
+transformers>=4.30.0
+tokenizers>=0.13.0
+sentencepiece>=0.1.99
+sacremoses>=0.0.53
+
+# Data and utilities
+datasets>=2.14.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# Evaluation
+rouge-score>=0.1.2
+nltk>=3.8.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional: Experiment tracking
+# wandb>=0.15.0
+
+# Optional: Faster training
+# accelerate>=0.20.0
