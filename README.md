@@ -59,6 +59,3 @@ Training results will be saved in the `result/` folder.
 - **CUDA errors**: Check PyTorch GPU installation
 - **Import errors**: Run `pip install -r requirements.txt` again
 
-## License
-
-Educational use.
