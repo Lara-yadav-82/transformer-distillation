@@ -1,21 +1,5 @@
-"""
-Knowledge Distillation Training for Email Summarization
-Teacher: flan-t5-base (250M) - Fine-tuned instruction model
-Student: t5-small (60M) or t5-medium (124M)
 
-Features:
-✓ Knowledge distillation with temperature scaling
-✓ Automatic checkpoint resumption
-✓ Google Drive integration for saving
-✓ Mixed loss (distillation + hard label + generation)
-✓ Early stopping with patience
-✓ Comprehensive evaluation with ROUGE scores
-
-Expected Performance:
-- Student (small): ROUGE-L 0.55-0.68 (with distillation boost)
-- Student (medium): ROUGE-L 0.60-0.72 (with distillation boost)
-"""
-!pip install torch transformers datasets rouge-score sentencepiece matplotlib tqdm accelerate numpy
+# !pip install torch transformers datasets rouge-score sentencepiece matplotlib tqdm accelerate numpy
 
 import torch
 import torch.nn as nn
